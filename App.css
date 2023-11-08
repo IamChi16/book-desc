@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+body, * {
+  margin: 0px;
+  padding: 0px;
+}
+
+.myapp{
+  width: 1300px;
+  height: 800px;
+  border:solid 1px ghostwhite;
+  padding: 10px;
+}
+
+.img-book{
+  max-width: 300px;
+  max-height: 200px;
+  vertical-align: top;
+  max-width: 100%;
+  border: 0;
+  height: 200px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.info-details{
+  margin-left: 15px;
+  list-style-type: none;
+}
+
+.box{
+  width: 330px;
+  display: inline-block;
+  border: solid 1px gainsboro;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial,sans-serif;
+  text-align: left!important;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 28px;
+  font-weight: 700!important;
+  font-size: 24px!important;
+  line-height: 32px!important;
+  padding-bottom: 4px;
+}
+
+.id{
+  background-color: #c45500;
+  height: 25px;
+  float: left!important;
+  margin-bottom: 22px;
+}
+.id-text{
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0 8px;
+}
+.id-section {
+  color: #c45500;
+  margin-bottom: 22px;
+  border-right: 10px solid transparent;
+  border-top: 25px solid;
+  height: 0;
+  width: 0;
+  float: left!important;
+}
+
+.title{
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-decoration: none;
+  color: #007185;
+}
+
+.icon-alt{
+  clip-path: circle(0);
+  left: auto;
+  width: 100%;
+  height: 100%;
+  font-size: inherit;
+  line-height: normal;
+  opacity: 0;
+}
+
+.type-style{
+  color: #565959!important;
+  font-size: 12px!important;
+  line-height: 16px!important;
+  font-weight: 400!important;
+  font-style: normal!important;
+  text-transform: none!important;
+  text-decoration: none!important;
+}
+
+.price-style{
+  color: #B12704!important;
+  font-size: 14px!important;
+  line-height: 20px!important;
+  word-wrap: normal;
+  overflow-x: hidden;
+}
